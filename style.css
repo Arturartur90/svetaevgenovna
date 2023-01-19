@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(231, 213, 248);
+}
+.nav {
+  background-color: rgb(12, 235, 112);
+  display: flex;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(1, 8, 1);
+  padding: 15px 25px;
+  font-size: 25px;
+}
+.nav a:hover {
+  background-color: brown;
+}
+
+h1,
+p {
+  color: red;
+  margin: 20px;
+}
+.der {
+  width: 90px;
+  height: 100vh;
+  background-color: rgb(17, 6, 63);
+  position: absolute;
+
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.der a {
+  color: bisque;
+  text-align: center;
+  text-decoration: none;
+  height: 20%;
+  font-size: 20px;
+  padding: 10px 20px;
+  position: relative;
+  align-items: center;
+}
+.der a:hover {
+  background-color: brown;
+  color: rgb(245, 221, 6);
+}
+.der a:active {
+  background-color: blueviolet;
+}
